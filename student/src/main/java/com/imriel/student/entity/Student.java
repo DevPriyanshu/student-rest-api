@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "STUDENT", schema = "test")
+@Table(name = "STUDENT", schema = "demo")
 @Data
 public class Student {
 
@@ -36,9 +36,5 @@ public class Student {
             @JoinColumn(name = "student_id")},
             inverseJoinColumns = {@JoinColumn(name = "bike_id")})
     private List<Book> books;
-
-    /*@OneToMany(cascade = CascadeType.ALL, mappedBy = "student")
-    @JsonManagedReference
-    private List<Book> books;*/
 
 }

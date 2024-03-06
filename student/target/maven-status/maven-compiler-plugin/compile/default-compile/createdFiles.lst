@@ -1,0 +1,16 @@
+com\imriel\student\customexception\EmptyInputException.class
+com\imriel\student\customexception\IdInvalidException.class
+com\imriel\student\advice\StudentControllerAdvice.class
+com\imriel\student\exceptionresponse\ExceptionResponse.class
+com\imriel\student\customexception\StudentNotExistException.class
+com\imriel\student\entity\Address.class
+com\imriel\student\controller\StudentController.class
+com\imriel\student\customexception\NotFindByCharacterException.class
+com\imriel\student\entity\Book.class
+com\imriel\student\customexception\NameInvalidException.class
+com\imriel\student\entity\Student.class
+com\imriel\student\customexception\NullIdException.class
+com\imriel\student\repository\BookRepository.class
+com\imriel\student\service\StudentService.class
+com\imriel\student\StudentApplication.class
+com\imriel\student\repository\StudentRepository.class
